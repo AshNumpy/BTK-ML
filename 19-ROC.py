@@ -60,6 +60,3 @@ TPR_svc = cm_svc[0][0]/(cm_svc[0][0]+cm_svc[0][1])
 FPR_svc = cm_svc[1][0]/(cm_svc[1][0]+cm_svc[1][1])
 
 #####################################################
-import matplotlib.pyplot as plt
-plt.scatter(FPR_log, TPR_log, color='orange')
-plt.show
